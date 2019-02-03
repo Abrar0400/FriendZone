@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:padding="15dp"
+        android:ems="10"
+        android:id="@+id/editTextName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPhonetic|phone"
+        android:hint="Number"
+        android:padding="15dp"
+        android:ems="10"
+        android:id="@+id/editTextNumber" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editTextEmail"
+        android:hint="Email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextAddress"
+        android:hint="Address" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextBloodGroup"
+        android:hint="Blood Goup" />
+
+
+</LinearLayout>

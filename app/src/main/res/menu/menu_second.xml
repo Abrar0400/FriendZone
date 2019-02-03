@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"><![CDATA[
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+
+    ]]>
+    <item
+        android:id="@+id/call"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_call_black_24dp"
+
+        android:title="call"
+        android:visible="true"
+        android:enabled="true">
+
+    </item>
+    <item
+        android:id="@+id/msg"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_forum_black_24dp"
+        android:title="Message">
+    </item>
+    <item
+        android:id="@+id/emailme"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_email_black_24dp"
+        android:title="Email">
+    </item>
+
+
+</menu>

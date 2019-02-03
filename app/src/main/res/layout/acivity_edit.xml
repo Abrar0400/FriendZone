@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:hint="Title"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2DeleteOrEdit"
+        android:textSize="24sp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:padding="15dp"
+        android:ems="10"
+        android:id="@+id/editText2Name" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPhonetic|phone"
+        android:hint="Number"
+        android:padding="15dp"
+        android:ems="10"
+        android:id="@+id/editText2Number" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText2Email"
+        android:hint="Email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText2Address"
+        android:hint="Address" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText2BloodGroup"
+        android:hint="Blood Goup" />
+
+
+</LinearLayout>

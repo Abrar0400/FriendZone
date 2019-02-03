@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:padding="15dp"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encourage us"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <RatingBar
+
+        android:layout_marginTop="15dp"
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:layout_gravity="center"
+        android:stepSize=".1"
+        android:rating="5.0"
+       android:progressTint="@color/golden"/>
+
+    <TextView
+        android:text="If you enjoy using this app, please rate us. It would be a great encouragement for us."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textAllCaps="false"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+</LinearLayout>
